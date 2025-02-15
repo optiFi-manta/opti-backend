@@ -1,0 +1,27 @@
+{
+  "name": "opti-backend",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "ts-node index.ts",
+    "build": "tsc",
+    "postinstall": "prisma generate"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.3.0",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.5",
+    "express": "^4.21.2",
+    "prisma": "^6.3.0"
+  }
+}
