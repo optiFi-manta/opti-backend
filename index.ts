@@ -72,6 +72,7 @@ async function updateStakingData(tokenKey: keyof typeof MOCK_TOKENS) {
       update: {
         tvl: formattedTVL,
         apy: formattedAPY,
+        chain: "Manta Pacific Sepolia",
         updatedAt: new Date()
       },
       create: {
